@@ -2,6 +2,7 @@ package com.nms.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -10,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.nms.bo.UsersBo;
 import com.nms.service.UserService;
 
-@RestController
+@Controller
 public class MainController {
 
 	@Autowired
@@ -24,10 +25,15 @@ public class MainController {
 
 	@GetMapping("/hi")
 	public String getette() {
-		return "HIIIIII:";
+		return "loggin";
 	}
-	@GetMapping("/hi1")
+	@GetMapping("/wel")
 	public String getette1() {
-		return "HIIIIII: wertyu";
+		return "welcome";
 	}
+	@GetMapping("/aa")
+	public String login() {
+		return "NewFile";
+	}
+
 }

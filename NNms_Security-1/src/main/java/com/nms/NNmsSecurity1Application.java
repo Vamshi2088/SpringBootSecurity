@@ -17,11 +17,11 @@ public class NNmsSecurity1Application implements CommandLineRunner {
 
 //	@Autowired
 //	UserService service;
-//	
+	
 	@Override
 	public void run(String... args) throws Exception {
 		
-//		UsersBo save = service.save(new UsersBo("mahesh", "mahesh123", "admin"));
+//		UsersBo save = service.save(new UsersBo("ram", "ram123", "admin"));
 //		System.out.println(save);
 	}
 

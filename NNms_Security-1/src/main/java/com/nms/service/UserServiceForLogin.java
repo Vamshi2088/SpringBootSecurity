@@ -19,7 +19,6 @@ public class UserServiceForLogin  implements UserDetailsService {
 	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
 	
 		UsersBo usersBo = repository.findByUsername(username);
-		
 		UserDetails build = User.builder()
 		.username(usersBo.getUsername())
 		.password(usersBo.getPassword())

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+	<definition name="NewFile" template="/WEB-INF/pages/NewFile.jsp">
+<!-- 		<put-attribute name="title" value="Welcome Page" /> -->
+<!-- 		<put-attribute name="header" value="/WEB-INF/tiles/header.jsp" /> -->
+<!-- 		<put-attribute name="body" value="/WEB-INF/tiles/body.jsp" /> -->
+<!-- 		<put-attribute name="footer" value="/WEB-INF/tiles/footer.jsp" /> -->
+	</definition>
+	
+	<definition name="welcome" template="/WEB-INF/pages/welcome.jsp"></definition>
+<definition name="loggin" template="/WEB-INF/pages/loggin.jsp"></definition>
+</tiles-definitions>
